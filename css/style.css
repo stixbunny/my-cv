@@ -10,7 +10,7 @@
 	--ff-title: 'Kanit', sans-serif;
 	--ff-body: 'system-ui', sans-serif;
 
-	--fs-normal: 0.9rem;
+	--fs-normal: 0.86rem;
 	--fs-small: 0.75rem;
 	--fs-big: 0.95rem;
 }
@@ -53,6 +53,10 @@ h4 {
 
 p, td {
 	text-align: justify;
+}
+
+th {
+	font-weight: normal;
 }
 
 a {
