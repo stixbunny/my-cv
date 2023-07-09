@@ -234,3 +234,15 @@ footer p {
 	text-align: right;
 	margin-block: 0;
 }
+
+@media print {
+	body {
+		margin-top: 2rem;
+	}
+
+	footer {
+		position: absolute;
+		right: 5rem;
+		bottom: 5rem;
+	}
+}
